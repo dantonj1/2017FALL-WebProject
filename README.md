@@ -3,7 +3,7 @@ What do you meme?
 
 This is a game designed in web programming for the fall semester of 2017.
 
-#PAST EXPERIENCE
+# PAST EXPERIENCE
 WESTCHESTER COMMUNITY COLLEGE
 Programming I (C++)
 Linux (Shell Scripting)
@@ -15,7 +15,7 @@ Programming III (Java)
 Object Oriented Programming
 Other (non-code) related computer courses.
 
-#FUTURE USE OF WEB PROGRAMMING
+# FUTURE USE OF WEB PROGRAMMING
 While working an awful retail job this summer I came across the following scheduling issues:
 You put a post-it note when you needed a day off… Which many times the HR department would forget to give you the day.
 You put up a post-it note if you need to switch shifts, then physically walk around the store asking every single employee in your department if they can take a look at the post-it you placed up.
