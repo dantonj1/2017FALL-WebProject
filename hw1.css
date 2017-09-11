@@ -1,0 +1,74 @@
+body{
+	font-family: Verdana;
+	background: gray;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.dropdown #list a{
+	color: white;
+	display: block;
+	clear: both;
+	padding: 20px 45px 20px 45px;
+	background: #333;
+	text-align: center;
+	text-decoration: none;
+}
+.dropdown{
+	float: left;
+}
+.dropdown h3{
+	text-align: center;
+	margin: 0px;
+	padding: 20px 45px 20px 45px;
+	background: #333;
+	color: white;
+}
+.dropdown #list{
+	display: none;
+	width: 100%;
+}
+.dropdown-contact #list a{
+	color: white;
+	display: block;
+	clear: both;
+	padding: 20px 45px 20px 45px;
+	background: #333;
+	text-align: center;
+	text-decoration: none;
+}
+.dropdown-contact{
+	float: right;
+}
+.dropdown-contact h3{
+	text-align: center;
+	margin: 0px;
+	padding: 20px 45px 20px 45px;
+	background: #333;
+	color: white;
+}
+.dropdown-contact #list{
+	display: none;
+	width: 100%;
+}
+#list li a:hover{
+    background-color: red;
+}
+h3:hover{
+	background-color: red;
+	text-decoration: none;
+}
+h3{
+	text-decoration: none;
+}

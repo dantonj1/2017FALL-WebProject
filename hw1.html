@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".dropdown, .dropdown-contact").mouseenter(function(){
+            $(this).children().slideDown('medium');
+        });
+        
+        $(".dropdown, .dropdown-contact").mouseleave(function(){
+            $(".dropdown #list, .dropdown-contact #list").slideUp('fast');
+        });
+    });
+</script>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JAMIE DANTON HW1</title>
+    <link rel="stylesheet" href="hw1.css">
+</head>
+
+<body>
+<ul>
+    <li><a href=""><div class="dropdown"><h3>HOME</h3></div></a></li>
+    <li><a href=""><div class="dropdown"><h3>ABOUT</h3></div></a></li>
+    
+    <div class="dropdown">
+        <li><a href=""><h3>PROJECTS</h3></a></li>
+        <div id="list">
+            <li><a href="">PROJECT 1</a></li>
+            <li><a href="">PROJECT 2</a></li>
+            <li><a href="">PROJECT 3</a></li>
+        </div>
+    </div>
+    
+    <li><a href=""><div class="dropdown"><h3>RESUME</h3></div></a></li>
+    
+    <div class="dropdown-contact">
+        <li><a href=""><h3>CONTACT</h3></a></li>
+        <div id="list">
+            <li><a href="">EMAIL</a></li>
+            <li><a href="">PHONE</a></li>
+            <li><a href="">TEXT</a></li>
+            <li><a href="">MAIL</a></li>
+        </div>
+    </div>
+</ul>
+</body>
+
+</html>
